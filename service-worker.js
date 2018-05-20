@@ -8,7 +8,7 @@ const RESOURCES_TO_PRELOAD = [
 	//'offline-404.html'
 ];
 
-/* 
+ 
    // Note: if you want to preload the UI5 core and mobile libraries by install,
    // uncomment this block of code
 
@@ -22,8 +22,8 @@ const RESOURCES_TO_PRELOAD = [
 		`${cdnBase}sap/m/library-preload.js`,
 		`${cdnBase}sap/m/themes/sap_belize_plus/library.css`
 	]);
-*/
 
+	
 // Preload some resources during install
 self.addEventListener('install', function (event) {
 	event.waitUntil(
